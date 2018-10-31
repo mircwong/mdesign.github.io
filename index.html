@@ -6,58 +6,60 @@
   <meta charset="UTF-8">
   <title>Portal Project</title>
   <link rel="stylesheet" href="pt-sans-styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Niramit:300i,400|PT+Sans" rel="stylesheet">
 
 <style>
 
+.header {
+  grid-column: 1/4;
+
+}
+
 .container {
   display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 80vw;
   margin: auto;
-  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 15px;
+
 }
 
-header {
-  grid-row: 1;
-  grid-column: 1 / 5;
-  background-color: #bba770;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
+.container div {
+  background: white;
+  padding: 20px;
 }
 
-section {
-  background-color: #9fbd5e;
-  grid-row: 3;
-  grid-column: 1/ 2;
-}
-
-aside {
-  min-height: 50vh;
-  background-color: #40ac59;
-  grid-row: 3;
-  grid-column: 1 / 2;
-}
+  .footer {
+    display: grid;
+    grid-column: 1/4;
+    maxwidth: 80vw;
+    margin: auto;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 2em;
+  }
 
 body {
-  font-family: 'PT Sans', sans-serif
-
+  font-family: 'PT Sans', sans-serif;
+  background-color: #e6e6ff;
 }
 
 header {
 
-  background-color: paleturquoise;
 }
 
-
 aside {
-  background-color: paleturquoise;
-
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
 }
 
 h1 {
   color: black;
-
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
 }
 
 h2 {
@@ -69,33 +71,35 @@ li {
 }
 
 footer {
-  background-color: paleturquoise;
+  background-color: white;
 
 }
 </style>
 </head>
 
 <body>
-<div class="container">
-<div>
+
+<div class="header">
     <header>
 
-      <h1>
+      <h1 align="center">
         Miranda Wong |  Portal Project
-      </h1>
-      <h2>
+        <br>
+        <br>
         DES 117 | Fall Quarter
+      </h1>
+      <h2 align="center">
+
         <br>
         <br>
         <img src="./images/ripped-2034949_1280.png"
-      alt= "header">
-
+      alt= "header" style="width:82%;">
       </h2>
 
     </header>
-  </div>
+</div>
 
-<div class="projects">
+<div class="container">
   <div>
     <section>
       <h2>Projects</h2>
@@ -106,9 +110,9 @@ footer {
       </ol>
     </section>
   </div>
-</div>
 
-<div class="exercises">
+
+
 <div>
     <section>
       <h2>Exercises</h2>
@@ -127,10 +131,8 @@ footer {
       </ol>
     </section>
   </div>
-</div>
 
 
-<div class="etcetera">
   <div>
     <aside>
       <section>
@@ -163,10 +165,12 @@ footer {
 <br>
 <br>
 
+<div class="footer">
     <footer>
-      <p>Miranda Wong</p>
-      <p>Contact | <a href="&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
-      <p><a href="https://validator.w3.org/check?uri=referer">©</a></p>
+      <p align="center">Miranda Wong</p>
+      <p align="center">Contact | <a href="&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+      <p align="center"><a href="https://validator.w3.org/check?uri=referer">©</a></p>
     </footer>
   </div>
+
 </body>
