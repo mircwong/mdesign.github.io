@@ -12,49 +12,45 @@
 .container {
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  background-color: gray;
+  grid-template-rows: 50% 50%;
+  max-width: 80vw;
+  margin: auto;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  background-color: gray;
+header {
+  grid-row: 1;
+  grid-column: 1 / 5;
+  background-color: #bba770;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
 }
 
-.exercises {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  background-color: gray;
+section {
+  background-color: #9fbd5e;
+  grid-row: 3;
+  grid-column: 1/ 2;
 }
 
-.etcetera {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  background-color: gray;
+aside {
+  min-height: 50vh;
+  background-color: #40ac59;
+  grid-row: 3;
+  grid-column: 1 / 2;
 }
+
 body {
   font-family: 'PT Sans', sans-serif
 
 }
 
-
 header {
 
-  padding-left: 3rem;
-
+  background-color: paleturquoise;
 }
 
 
 aside {
-
   background-color: paleturquoise;
 
 }
@@ -99,7 +95,7 @@ footer {
     </header>
   </div>
 
-<div id="projects">
+<div class="projects">
   <div>
     <section>
       <h2>Projects</h2>
