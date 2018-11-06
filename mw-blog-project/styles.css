@@ -8,7 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background: lightsalmon;
+  background: #8D99AE;
   padding: 5rem;
   text-align: center;
 }
@@ -24,7 +24,7 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #e6e6ff;
+  background: #C70025;
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
@@ -37,7 +37,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: black;
+  color: #EDF2F4;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
@@ -46,7 +46,7 @@ nav ul li:active {
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: #197278;
+  background: #2B2D42;
 }
 
 article {
@@ -55,7 +55,7 @@ article {
 }
 
 footer {
-  background: lightsalmon;
+  background: #8D99AE;
   padding: 2rem;
   text-align: center;
 }
