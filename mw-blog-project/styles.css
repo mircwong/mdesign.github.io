@@ -7,6 +7,13 @@ in the middle of the browser no matter how wide you stretch the browser*/
   width: 90vw;
 }
 
+.header {
+   background-color: #000000;
+   background-image: url(./images/city-banner.gif); 
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+}
+
 header {
   background: #8D99AE;
   padding: 5rem;
