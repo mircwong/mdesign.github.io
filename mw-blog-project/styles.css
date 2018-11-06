@@ -8,8 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background-image: url("./images/des117-blogbanner.png");
-  background: lavender;
+  background: #C44536;
   padding: 5rem;
   text-align: center;
 }
@@ -38,16 +37,16 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: #FFFFFF;
+  color: #EDDDD4;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: lightsteelblue;
+  background: #283D3B;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: thistle;
+  background: #197278;
 }
 
 article {
@@ -56,7 +55,7 @@ article {
 }
 
 footer {
-  background: thistle;
+  background: #C44536;
   padding: 2rem;
   text-align: center;
 }
