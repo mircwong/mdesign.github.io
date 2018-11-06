@@ -8,6 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
+  background-image: url("./images/des117-blogbanner.png");
   background: lavender;
   padding: 5rem;
   text-align: center;
