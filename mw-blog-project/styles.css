@@ -8,7 +8,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background: #C44536;
+  background: lightsalmon;
   padding: 5rem;
   text-align: center;
 }
@@ -37,7 +37,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: #EDDDD4;
+  color: black;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
@@ -55,7 +55,7 @@ article {
 }
 
 footer {
-  background: #C44536;
+  background: lightsalmon;
   padding: 2rem;
   text-align: center;
 }
