@@ -16,6 +16,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 
 header {
   font-family: 'Allerta Stencil', sans-serif;
+  line-height: 1;
   background: #8D99AE;
   padding: 5rem;
   text-align: center;
