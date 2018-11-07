@@ -5,7 +5,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
-  background: #8D99AE;
+
 }
 
 .header {
@@ -23,6 +23,7 @@ header {
 }
 
 body {
+  background-color:  #8D99AE;
   background: url(images/city-banner.gif);
   background-repeat: no-repeat;
 }
