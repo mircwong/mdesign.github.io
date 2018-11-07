@@ -21,6 +21,10 @@ header {
   text-align: center;
 }
 
+body {
+  background: url(images/city-banner.gif);
+  background-repeat: no-repeat;
+}
 body, p {
   font-family: 'Karla', sans-serif;
   line-height: 1.5;
