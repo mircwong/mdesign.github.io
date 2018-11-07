@@ -5,6 +5,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
+  background: #8D99AE;
 }
 
 .header {
@@ -16,7 +17,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 header {
   font-family: 'Allerta Stencil', sans-serif;
   line-height: 1;
-  background: #8D99AE;
+  background: white;
   padding: 5rem;
   text-align: center;
 }
