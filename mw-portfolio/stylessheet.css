@@ -1,0 +1,138 @@
+/*Sets the width of the overall page container div
+to 90% of viewport width and margin:auto centers the page
+in the middle of the browser no matter how wide you stretch the browser*/
+
+.pagecontainer {
+  margin: auto;
+  width: 100vw;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 0fr;
+}
+
+header {
+  background: #bd9cad;
+  padding: 10rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  font-size: 120em;
+  grid-row: 1;
+  grid-column: 1 / 1;
+}
+
+body {
+  background: #ffffff;
+  grid-row: 1;
+  grid-column: 1 / 1;
+  text-align: center;
+  padding: 6rem;
+}
+
+aside {
+  background: #ffffff;
+  grid-row: 1;
+  grid-column: 1 / 1;
+  padding-bottom: 3rem;
+}
+
+img {
+  width: auto;
+  max-width: 80%;
+  height: auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #543f4a;
+  font-family: 'Karla', sans-serif;
+  font-size: 35px;
+  padding-bottom: 3rem;
+  line-height: 3rem;
+}
+
+h3 {
+  text-align: center;
+  color: #947585;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 50px;
+  padding-top: 2rem;
+}
+
+h4 {
+  text-align: center;
+  width: auto;
+  color: #947585;
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+  padding-bottom: 3rem;
+  padding-left: 11rem;
+  padding-right: 11rem;
+  line-height: 3rem;
+}
+
+h5 {
+  text-align: center;
+  color: #947585;
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+}
+
+h6 {
+  text-align: center;
+  color: #c68ba9;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  width: 100%;
+  background: #bd9cad;
+}
+
+ul {
+  width: 32rem;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+}
+
+ul li:hover {
+  background: #937491
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  background: #b6a2b3;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color: #ffffff;
+}
