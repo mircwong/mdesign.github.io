@@ -11,12 +11,12 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background: #bd9cad;
+  background-image: linear-gradient(to bottom right, #aceaf1, #8871eb);
   padding: 10rem;
   text-align: center;
   color: #ffffff;
   font-family: 'Karla', sans-serif;
-  font-size: 120em;
+  font-size: 120px;
   grid-row: 1;
   grid-column: 1 / 1;
 }
@@ -46,7 +46,7 @@ img {
 
 h2 {
   text-align: center;
-  color: #543f4a;
+  color: #ffffff;
   font-family: 'Karla', sans-serif;
   font-size: 35px;
   padding-bottom: 3rem;
@@ -99,7 +99,7 @@ body {
 
 nav {
   width: 100%;
-  background: #bd9cad;
+  background: #aceaf1;
 }
 
 ul {
@@ -121,7 +121,7 @@ ul li {
 }
 
 ul li:hover {
-  background: #937491
+  background: gray;
 }
 
 ul li a {
@@ -130,7 +130,7 @@ ul li a {
 }
 
 footer {
-  background: #b6a2b3;
+  background-image: linear-gradient(to bottom right, #aceaf1, #8871eb);
   padding: 2rem;
   text-align: center;
   font-family: 'Karla', sans-serif;
