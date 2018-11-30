@@ -59,6 +59,9 @@ article {
 }
 
 article img {
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 5em;
 }
 
 h1 {
@@ -74,33 +77,31 @@ h2 {
 }
 
 h3 {
+  font-family: 'Karla', sans-serif;
   text-align: center;
-  color: #947585;
+  padding-top: 50px;
+  color: #dc747d;
   font-size: 50px;
-  padding-top: 2rem;
+}
+
+article p {
+  font-family: 'Karla', sans-serif;
+  color: #dc747d;
+  font-size: 20px;
+  padding-left: 10em;
+  padding-right: 10em;
+  line-height: 1.5;
 }
 
 h4 {
-  text-align: center;
-  width: auto;
-  color: #947585;
-  font-size: 25px;
-  padding-bottom: 3rem;
-  padding-left: 11rem;
-  padding-right: 11rem;
-  line-height: 3rem;
 }
 
 h5 {
-  text-align: center;
-  color: #947585;
-  font-size: 30px;
+
 }
 
 h6 {
-  text-align: center;
-  color: #c68ba9;
-  font-size: 40px;
+
 }
 
 a {
