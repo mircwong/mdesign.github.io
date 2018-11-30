@@ -11,9 +11,8 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background-image: url('/portfolio-images/branches.jpeg');/*linear-gradient(to bottom right, #aceaf1, #8871eb); */
+  background-image: url('/portfolio-images/branches.jpeg');
   background-size: cover;
-  /*padding: 8rem;*/
   text-align: center;
   color: #ffffff;
   font-family: 'Karla', sans-serif;
@@ -144,11 +143,12 @@ ul li:hover {
   border-color: white;
 }
 
-nav ul li:active {
-  background: #fddd5d;
-  opacity: 0.9;
+/*indicates which page the user is on by changes the color of the button*/
+.locationmarker {
+  background: #2B2D42;
 }
 
+/*takes away any underlines or decorations on the links*/
 ul li a {
   color: #ffffff;
   text-decoration: none;
