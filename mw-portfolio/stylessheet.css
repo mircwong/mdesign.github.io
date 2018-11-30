@@ -60,8 +60,9 @@ article {
 
 article img {
   margin: auto;
+  border-radius: 10%;
   padding-top: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 1em;
 }
 
 h1 {
