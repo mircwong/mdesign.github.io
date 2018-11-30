@@ -20,6 +20,15 @@ header {
   grid-column: 1 / 1;
 }
 
+header img {
+  opacity: 0.3;
+  filter: alpha(opacity=30); /*brings the opacity down*/
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  text-align: center;
+
+}
 /* Centered text */
 .centered {
     margin: auto;
@@ -40,24 +49,14 @@ body {
   padding: 6rem;
 }
 
-aside {
+article {
   background: #ffffff;
   grid-row: 1;
   grid-column: 1 / 1;
   padding-bottom: 3rem;
 }
 
-header img {
-  opacity: 0.3;
-  filter: alpha(opacity=30); /*brings the opacity down*/
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  text-align: center;
-
-}
-aside img {
-
+article img {
 }
 
 h1 {
