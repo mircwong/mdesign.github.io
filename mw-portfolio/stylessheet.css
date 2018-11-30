@@ -11,8 +11,9 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background-image: linear-gradient(to bottom right, #aceaf1, #8871eb);
-  padding: 8rem;
+  background-image: url('/portfolio-images/branches.jpeg');/*linear-gradient(to bottom right, #aceaf1, #8871eb); */
+  background-size: cover;
+  /*padding: 8rem;*/
   text-align: center;
   color: #ffffff;
   font-family: 'Karla', sans-serif;
@@ -30,7 +31,7 @@ header {
 
 body {
   height: 100%;
-  background: #ffffff;
+  background: linear-gradient(to bottom right, #df3646, #fddd5d);
   grid-row: 1;
   grid-column: 1 / 1;
   text-align: center;
@@ -45,8 +46,8 @@ aside {
 }
 
 img {
-  opacity: 0.4;
-  filter: alpha(opacity=40); /*brings the opacity down*/
+  opacity: 0.3;
+  filter: alpha(opacity=30); /*brings the opacity down*/
   width: 100%;
   height: 100%;
   max-width: 100%;
@@ -139,8 +140,13 @@ ul li {
 }
 /* Changes the link color when hovered over */
 ul li:hover {
-  background: #222645;
+  background: #c65b65;
   border-color: white;
+}
+
+nav ul li:active {
+  background: #fddd5d;
+  opacity: 0.9;
 }
 
 ul li a {
@@ -149,7 +155,7 @@ ul li a {
 }
 
 footer {
-  background-image: linear-gradient(to bottom right, #aceaf1, #8871eb);
+  background-image: linear-gradient(to bottom right, #fb848f, #fddd5d);
   padding: 2rem;
   text-align: center;
   font-family: 'Karla', sans-serif;
