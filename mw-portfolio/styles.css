@@ -38,7 +38,7 @@ header img {
     position: absolute;
     padding-top: 5rem;
     padding-bottom: 1rem;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -80%);
 }
@@ -89,9 +89,10 @@ h3 {
 }
 
 h4 {
+  margin: 1rem;
   font-family: 'Karla', sans-serif;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   color: #dc747d;
