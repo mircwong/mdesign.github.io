@@ -232,6 +232,26 @@ footer img {
 /*sets the header image to full screen width*/
   header {
     background-size: 100% auto;
+    height: 765px;
+  }
+
+  header img {
+    height: 765px;
+  }
+
+  h1 {
+    font-size: 3em;
+    width: 100%;
+    padding-top: 35rem;
+  }
+
+  h2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  hr{
+    width: 30%;
   }
 
 nav ul {
@@ -240,8 +260,9 @@ nav ul {
 }
 /*sets width of navbar items*/
   nav ul li {
-    width: 8rem;
+    width: 60%;
 
 }
+
 
 }
