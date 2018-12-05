@@ -35,22 +35,18 @@ header img {
 .centered {
     margin: auto;
     display: grid;
-    grid-template-rows: 0fr;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
-
+    transform: translate(-50%, -80%);
 }
 
 body {
-  height: 100%;
+
   background: linear-gradient(to bottom right, #df3646, #feff9d);
   grid-row: 1;
   grid-column: 1 / 1;
   text-align: center;
-  padding: 6rem;
 }
 
 
@@ -63,13 +59,12 @@ article {
 
 article img {
   margin: auto;
-  border-radius: 10%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 2em;
   font-weight: bold;
 
 }
@@ -77,30 +72,28 @@ h1 {
 h2 {
   text-align: center;
   color: #ffffff;
-  font-size: 2em;
-  padding-bottom: 3rem;
-  line-height: 3rem;
+  font-size: 0.5em;
 
 }
 
 h3 {
   font-family: 'Karla', sans-serif;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: #dc747d;
   font-size: 2em;
 }
 
-article p {
-  font-family: 'Karla', sans-serif;
-  color: #dc747d;
-  font-size: 1em;
-  padding-left: 10em;
-  padding-right: 10em;
-  line-height: 1.5;
-}
-
 h4 {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #dc747d;
+  font-size: 2em;
 }
 
 h5 {
@@ -109,6 +102,34 @@ h5 {
 
 h6 {
 
+}
+
+.profile p{
+  font-family: 'Karla', sans-serif;
+  color: #dc747d;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.8em;
+  line-height: 1.5;
+
+}
+
+article p {
+  font-family: 'Karla', sans-serif;
+  color: #dc747d;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+main p {
+  font-family: 'Karla', sans-serif;
+  color: #dc747d;
+  font-size: 1.2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  line-height: 1.5;
 }
 
 a {
@@ -122,7 +143,7 @@ body {
 }
 
 nav ul {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -130,21 +151,19 @@ nav ul {
   justify-content: center;
   list-style-type: none;
   text-align: center;
-  font-size: 1em;
+  font-size: .5em;
 }
 
 ul li {
-
+  margin: 0.2rem;
   border: solid #fff 1px;
   border-radius: 70px;
   background: transparent;
-  float: left;
   overflow: hidden;
   list-style: none;
-  display: inline-block;
-  padding: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   text-align: center;
 }
 
@@ -168,7 +187,7 @@ ul li a {
 
 footer {
   background: #c65b65;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   font-family: 'Karla', sans-serif;
   color: #ffffff;
