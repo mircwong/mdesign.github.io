@@ -12,43 +12,39 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background-image: url('/portfolio-images/banner.jpeg');
   background-size: cover;
   text-align: center;
-  color: #ffffff;
-  font-family: 'Karla', sans-serif;
+  color: black;
+  font-family: 'Noto Serif', serif;
   grid-row: 1;
   grid-column: 1 / 1;
   width: 100%;
+  border-bottom: #f7ce4e 4px solid;
 }
 
 header img {
   opacity: 0.1;
   filter: alpha(opacity=10); /*brings the opacity down*/
   width: 100%;
-  height: 100%;
+  height: 550px;
   max-width: 100%;
   text-align: center;
-
 }
 /* Centered text */
 .centered {
-    margin: auto;
     display: grid;
     position: absolute;
-    padding-top: 5rem;
+    padding-top: 13rem;
     padding-bottom: 1rem;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
 }
 
 body {
-
-  background: linear-gradient(to bottom right, #df3646, #feff9d);
+  /*background: linear-gradient(to bottom right, #df3646, #feff9d); */
   grid-row: 1;
   grid-column: 1 / 1;
-  text-align: center;
 }
 
 
@@ -68,24 +64,27 @@ article img {
 h1 {
   font-size: 2em;
   font-weight: bold;
-
+  text-transform: uppercase;
 }
 
 h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: black;
   font-size: 0.8em;
-
+  letter-spacing: 1px;
+  line-height: 1.5rem;
 }
 
 h3 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   color: #dc747d;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -142,7 +141,6 @@ a {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 nav ul {
@@ -151,57 +149,81 @@ nav ul {
   flex-wrap: wrap;
   width: 100%;
   padding: 0;
+  padding-top:2rem;
   justify-content: center;
   list-style-type: none;
   text-align: center;
-  font-size: .5em;
+  font-size: 1em;
 }
 
 ul li {
+  font-family: 'Roboto', serif;
+  text-transform: uppercase;
   margin: 0.2rem;
-  border: solid #fff 1px;
+  border: solid #e7e7e7 1px;
   border-radius: 70px;
   background: transparent;
   overflow: hidden;
   list-style: none;
   padding: 0.5rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-top: 1.3rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
   text-align: center;
+  height: 2rem;
+  width: 150px;
 }
 
 
 /* Changes the link color when hovered over */
 ul li:hover {
-  background: #dc747d;
+  background: #e7e7e7;
   border-color: white;
 }
 
 /*indicates which page the user is on by changes the color of the button*/
 .locationmarker {
-  background: #c65b65;
+  background: #f7ce4e;
 }
 
 /*takes away any underlines or decorations on the links*/
 ul li a {
-  color: #ffffff;
+  color: #35424a;
   text-decoration: none;
 }
 
 footer {
-  background: #c65b65;
-  padding: 2rem;
+  border-top: #f7ce4e 4px solid;
   text-align: center;
-  font-family: 'Karla', sans-serif;
-  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  font-size: 0.9em;
   text-decoration: none;
+  height: 200px;
+
 }
 
 footer a {
-  color: #ffffff;
+  color: black;
 }
 
-/* for larger screens*/
+footer img {
+  opacity: 0.1;
+  filter: alpha(opacity=10); /*brings the opacity down*/
+  width: 100%;
+  height: 200px;
+}
+
+.centeredBottom {
+    color: black;
+    justify-content: center;
+    transform: translate(0, -190%);
+}
+
+/* for larger/desktop screens*/
 @media only screen and (min-width: 900px)  {
 /*sets the header image to full screen width*/
   header {
