@@ -34,7 +34,7 @@ header img {
 .centered {
     display: grid;
     position: absolute;
-    padding-top: 13rem;
+    padding-top: 17rem;
     padding-bottom: 1rem;
     top: 50%;
     left: 50%;
@@ -47,7 +47,10 @@ body {
   grid-column: 1 / 1;
 }
 
+hr {
+  width: 50%;
 
+}
 article {
   background: #ffffff;
   grid-row: 1;
@@ -57,14 +60,15 @@ article {
 
 article img {
   margin: auto;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.3em;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -83,7 +87,7 @@ h3 {
   padding-top: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  color: #dc747d;
+  color: black;
   font-size: 1.5em;
 }
 
@@ -94,7 +98,7 @@ h4 {
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  color: #dc747d;
+  color: #b0b0b0;
   font-size: 2em;
 }
 
@@ -118,7 +122,7 @@ h6 {
 
 article p {
   font-family: 'Karla', sans-serif;
-  color: #dc747d;
+  color: #7c7c7c;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-size: 1.2em;
@@ -153,12 +157,13 @@ nav ul {
   justify-content: center;
   list-style-type: none;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 ul li {
   font-family: 'Roboto', serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
   margin: 0.2rem;
   border: solid #e7e7e7 1px;
   border-radius: 70px;
@@ -171,7 +176,7 @@ ul li {
   padding-right: 7rem;
   text-align: center;
   height: 2rem;
-  width: 150px;
+  width: 170px;
 }
 
 
@@ -188,7 +193,7 @@ ul li:hover {
 
 /*takes away any underlines or decorations on the links*/
 ul li a {
-  color: #35424a;
+  color: black;
   text-decoration: none;
 }
 
@@ -197,8 +202,7 @@ footer {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
+  letter-spacing: 1.5px;
   color: black;
   font-size: 0.9em;
   text-decoration: none;
