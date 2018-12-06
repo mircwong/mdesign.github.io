@@ -209,6 +209,7 @@ ul li a {
   position: relative;
 }
 
+
 /* changes opacity to locate which piece the user is on */
 .work a:hover {
   opacity: 0.7;
