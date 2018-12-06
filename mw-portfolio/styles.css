@@ -1,3 +1,4 @@
+/********** for mobile styles **********/
 
 /*Sets the width of the overall page container div
 to 90% of viewport width and margin:auto centers the page
@@ -12,13 +13,10 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background-size: cover;
   text-align: center;
   color: black;
-  grid-row: 1;
-  grid-column: 1 / 1;
   width: 100%;
-  border-bottom: #f7ce4e 4px solid;
+  border-bottom: #f7ce4e 5px solid;
 }
 
 header img {
@@ -29,7 +27,8 @@ header img {
   max-width: 100%;
   text-align: center;
 }
-/* Centered text */
+
+/* Centered text over header image */
 .centered {
     display: grid;
     position: absolute;
@@ -40,20 +39,12 @@ header img {
     transform: translate(-50%, -80%);
 }
 
-body {
-  /*background: linear-gradient(to bottom right, #df3646, #feff9d); */
-  grid-row: 1;
-  grid-column: 1 / 1;
-}
-
+/*sets the width for the hr elements*/
 hr {
   width: 50%;
-
 }
+
 article {
-  background: #ffffff;
-  grid-row: 1;
-  grid-column: 1 / 1;
   padding-bottom: 3rem;
 }
 
@@ -63,44 +54,45 @@ article img {
   padding-bottom: 2rem;
 }
 
+/************* Typography *************/
 h1 {
   font-family: 'Prata', serif;
   font-size: 2.3em;
-  text-transform: uppercase;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: 'Asap', sans-serif;
+  font-size: 0.8em;
   font-weight: normal;
   text-align: center;
-  color: black;
-  font-size: 0.8em;
   letter-spacing: 1px;
   line-height: 1.5rem;
+  color: black;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
   letter-spacing: 1px;
   text-align: center;
+  color: black;
   padding-top: 1rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  color: black;
-  font-size: 1.5em;
 }
 
 h4 {
   margin: 1rem;
   font-family: 'Asap', sans-serif;
+  font-size: 2em;
   font-weight: normal;
   text-align: center;
+  color: #b0b0b0;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  color: #b0b0b0;
-  font-size: 2em;
 }
 
 h5 {
@@ -113,10 +105,6 @@ h5 {
   padding-right: 1rem;
   color:#363636;
   font-size: 2.3em;
-}
-
-h6 {
-
 }
 
 .profile p{
@@ -140,24 +128,11 @@ article p {
   line-height: 1.5;
 }
 
-main p {
-  font-family: 'Asap', sans-serif;
-  color: #dc747d;
-  font-size: 1.2em;
-  padding-left: 10em;
-  padding-right: 10em;
-  line-height: 1.5;
-}
-
 a {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
+/************* Navigation *************/
 nav ul {
   margin: auto;
   display: flex;
@@ -172,13 +147,13 @@ nav ul {
 }
 
 ul li {
+  margin: 0.2rem;
+  background: transparent;
   font-family: 'Roboto', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0.2rem;
   border: solid #e7e7e7 1px;
   border-radius: 70px;
-  background: transparent;
   overflow: hidden;
   list-style: none;
   padding: 0.5rem;
@@ -189,7 +164,6 @@ ul li {
   height: 2rem;
   width: 170px;
 }
-
 
 /* Changes the link color when hovered over */
 ul li:hover {
@@ -207,24 +181,54 @@ ul li a {
   color: black;
   text-decoration: none;
 }
+/************* Work **************/
+.work {
+  align-content: center;
+  line-height: 1;
+  padding: 0;
+}
+.work .square {
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height:20em;
+  max-width: 100%;
+  width:35%;
+  position: relative;
+}
 
+.work .square2 {
+  display:inline-block;
+  object-fit: none;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  min-height:20em;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .work .square, .square2 {
+    width: 100%;
+  }
+}
+
+/************* Footer *************/
 footer {
-  border-top: #f7ce4e 4px solid;
-  text-align: center;
+  border-top: #f7ce4e 5px solid;
   font-family: 'Asap', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: black;
   font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
   text-decoration: none;
-  height: 200px;
-
-}
-
-footer a {
   color: black;
+  height: 200px;
 }
 
+/* sets width, height, and opacity of footer image */
 footer img {
   opacity: 0.1;
   filter: alpha(opacity=10); /*brings the opacity down*/
@@ -232,17 +236,22 @@ footer img {
   height: 200px;
 }
 
+footer a {
+  color: black;
+}
+
+/* centers text over footer image */
 .centeredBottom {
     color: black;
     justify-content: center;
     transform: translate(0, -190%);
 }
 
-/* for larger/desktop screens*/
+/************** for larger/desktop screens **************/
 @media only screen and (min-width: 900px)  {
+
 /*sets the header image to full screen width*/
   header {
-    background-size: 100% auto;
     height: 765px;
   }
 
@@ -250,8 +259,9 @@ footer img {
     height: 765px;
   }
 
-  h1 {
+/**************** Typography ****************/
 
+  h1 {
     font-size: 3em;
     width: 100%;
     padding-top: 27rem;
@@ -266,39 +276,32 @@ footer img {
     width: 30%;
   }
 
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .profile p {
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+/**************** Navigation ****************/
 
 ul {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
   font-size: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-
 }
 
+/*sets the width of the nav bar list elements*/
 ul li {
   width: 5rem;
 }
 
-/*sets width of navbar items*/
-  /*nav ul li {
-    width: 60%;
-
-}*/
-
-.profile p {
-  font-size: 1em;
-  line-height: 2em;
-  padding-left: 8rem;
-  padding-right: 8rem;
+/**************** Work ******************/
+.work .square {
+  min-height: 20em;
+  width: 33%;
 }
 
+.work .square2 {
+  min-height: 20em;
+  width: 49.8%;
+}
 }
