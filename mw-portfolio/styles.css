@@ -16,7 +16,7 @@ header {
   text-align: center;
   color: black;
   width: 100%;
-  border-bottom: #f7ce4e 5px solid;
+  border-bottom: #f7ce4e 7px solid;
 }
 
 header img {
@@ -52,6 +52,10 @@ article img {
   margin: auto;
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+article a:hover {
+  color: #52595e;
 }
 
 /************* Typography *************/
@@ -127,6 +131,10 @@ article p {
   padding-right: 1rem;
   font-size: 1em;
   line-height: 1.5;
+}
+
+article a {
+  color: #f7ce4e;
 }
 
 a {
@@ -248,11 +256,16 @@ footer a {
   color: black;
 }
 
+footer a:hover {
+  color: #f7ce4e;
+}
+
 /* centers text over footer image */
 .centeredBottom {
     color: black;
-    justify-content: center;
-    transform: translate(0, -190%);
+    text-align: left;
+    padding-left: 3rem;
+    transform: translate(0, -160%);
 }
 
 /************** for larger/desktop screens **************/
