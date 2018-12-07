@@ -112,12 +112,13 @@ h5 {
 }
 
 .profile p{
-  font-family: 'Asap', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color:#7c7c7c;
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 0.8em;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-weight: normal;
 
 }
 
