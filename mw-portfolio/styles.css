@@ -209,7 +209,7 @@ ul li a {
 
 .work .square2 {
   display:inline-block;
-  object-fit: none;
+  background-size: cover;
   background-position: 40% 70%;
   background-repeat: no-repeat;
   min-height:20em;
