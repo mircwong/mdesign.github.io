@@ -273,11 +273,16 @@ footer a:hover {
 /*sets the header image to full screen width*/
   header {
     height: 565px;
+    width: 100%;
   }
 
   header img {
-    height: 565px;
+    height: 100%;
     object-fit: cover;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   .centered {
@@ -310,7 +315,7 @@ footer a:hover {
 /**************** Navigation ****************/
 
 nav ul {
-  display: flex;
+
   flex-wrap: nowrap;
 }
 
@@ -348,6 +353,7 @@ footer img {
 
 .centeredBottom section {
   text-align: center;
+  padding-right: 5rem;
 }
 
 }
