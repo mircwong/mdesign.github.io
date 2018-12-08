@@ -32,7 +32,7 @@ header img {
 .centered {
     display: grid;
     position: absolute;
-    padding-top: 17rem;
+    padding-top: 6rem;
     padding-bottom: 1rem;
     top: 50%;
     left: 50%;
@@ -60,18 +60,17 @@ article a:hover {
 
 /************* Typography *************/
 h1 {
-  font-family: 'Prata', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2.3em;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding-top: 18rem;
+
 }
 
 h2 {
   font-family: 'Asap', sans-serif;
   font-size: 0.8em;
   font-weight: normal;
-  text-align: center;
   letter-spacing: 1px;
   line-height: 1.5rem;
   color: black;
@@ -113,12 +112,13 @@ h5 {
 }
 
 .profile p{
-  font-family: 'Asap', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color:#7c7c7c;
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: 0.8em;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-weight: normal;
 
 }
 
@@ -151,7 +151,6 @@ nav ul {
   padding-top:2rem;
   justify-content: center;
   list-style-type: none;
-  text-align: center;
   font-size: 0.9em;
 }
 
@@ -163,13 +162,10 @@ ul li {
   letter-spacing: 2px;
   border: solid #e7e7e7 1px;
   border-radius: 70px;
-  overflow: hidden;
-  list-style: none;
   padding: 0.5rem;
   padding-top: 1.3rem;
   padding-left: 7rem;
   padding-right: 7rem;
-  text-align: center;
   height: 2rem;
   width: 170px;
 }
@@ -262,22 +258,30 @@ footer a:hover {
 
 /* centers text over footer image */
 .centeredBottom {
+  font-size: 0.8em;
     color: black;
     text-align: left;
-    padding-left: 3rem;
-    transform: translate(0, -160%);
+    padding-left: 2rem;
+    transform: translate(0, -155%);
 }
+
+
 
 /************** for larger/desktop screens **************/
 @media only screen and (min-width: 900px)  {
 
 /*sets the header image to full screen width*/
   header {
-    height: 765px;
+    height: 565px;
   }
 
   header img {
-    height: 765px;
+    height: 565px;
+    object-fit: cover;
+  }
+
+  .centered {
+    padding: 6rem;
   }
 
 /**************** Typography ****************/
@@ -285,7 +289,6 @@ footer a:hover {
   h1 {
     font-size: 3em;
     width: 100%;
-    padding-top: 27rem;
   }
 
   h2{
@@ -306,13 +309,21 @@ footer a:hover {
 
 /**************** Navigation ****************/
 
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 ul {
   font-size: 30px;
+  padding: 1.3rem;
 }
 
 /*sets the width of the nav bar list elements*/
 ul li {
-  width: 5rem;
+  margin: 2rem;
+  width: 100%;
+
 }
 
 /**************** Work ******************/
@@ -326,4 +337,18 @@ ul li {
   background-position: center 50%;
   width: 49.8%;
 }
+
+footer img {
+  object-fit: cover;
+}
+
+.centeredBottom {
+  padding-left: 5rem;
+}
+
+.centeredBottom section {
+  text-align: center;
+  padding-right: 5rem;
+}
+
 }
