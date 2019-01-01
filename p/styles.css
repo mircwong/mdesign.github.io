@@ -286,9 +286,6 @@ footer a:hover {
     overflow-x: hidden;
   }
 
-  .centered {
-    padding-top: 25rem;
-  }
 
 /**************** Typography ****************/
 
@@ -351,12 +348,8 @@ footer img {
 }
 
 .centeredBottom {
-  padding-left: 5rem;
-}
-
-.centeredBottom section {
+  padding-bottom: 1.5rem;
   text-align: center;
-  padding-right: 5rem;
 }
 
 }
