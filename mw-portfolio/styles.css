@@ -337,11 +337,13 @@ ul li {
   width: 33%;
 }
 
+/*
 .work .square2 {
   min-height: 20em;
   background-position: center 50%;
   width: 49.8%;
 }
+*/
 
 footer img {
   object-fit: cover;
