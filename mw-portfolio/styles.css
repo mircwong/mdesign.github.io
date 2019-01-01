@@ -19,13 +19,20 @@ header {
   border-bottom: #f7ce4e 7px solid;
 }
 
+/*
 header img {
   opacity: 0.2;
-  filter: alpha(opacity=20); /*brings the opacity down*/
+  filter: alpha(opacity=20); /*brings the opacity down
   width: 100%;
   height: 650px;
   max-width: 100%;
   text-align: center;
+}
+*/
+
+header img {
+  max-width: 80%;
+  
 }
 
 /* Centered text over header image */
@@ -161,25 +168,24 @@ ul li {
   text-transform: uppercase;
   letter-spacing: 2px;
   border: solid #e7e7e7 1px;
+  border-radius: 70px;
   padding: 0.5rem;
   padding-top: 1.3rem;
   padding-left: 7rem;
   padding-right: 7rem;
   height: 2rem;
-  width: 140px;
+  width: 170px;
 }
 
 /* Changes the link color when hovered over */
 ul li:hover {
-  background: transparent;
-  text-decoration: line-through;
-  border-color: #e7e7e7;
+  background: #e7e7e7;
+  border-color: white;
 }
 
 /*indicates which page the user is on by changes the color of the button*/
 .locationmarker {
-  background: transparent;
-  text-decoration: line-through;
+  background: #f7ce4e;
 }
 
 /*takes away any underlines or decorations on the links*/
@@ -187,8 +193,6 @@ ul li a {
   color: black;
   text-decoration: none;
 }
-
-
 /************* Work **************/
 .work {
   align-content: center;
@@ -271,11 +275,11 @@ footer a:hover {
 
 
 /************** for larger/desktop screens **************/
-@media only screen and (min-width: 1000px)  {
+@media only screen and (min-width: 900px)  {
 
 /*sets the header image to full screen width*/
   header {
-    height: 100%;
+    height: 565px;
     width: 100%;
   }
 
@@ -300,7 +304,7 @@ footer a:hover {
   }
 
   h2{
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.5em;
   }
 
@@ -329,7 +333,7 @@ ul {
 
 /*sets the width of the nav bar list elements*/
 ul li {
-  margin: 1.2rem;
+  margin: 2rem;
   width: 100%;
 
 }
