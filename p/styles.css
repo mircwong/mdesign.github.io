@@ -37,6 +37,18 @@ header img {
     transform: translate(-50%, -60%);
 }
 
+#intro-img {
+  padding: 0;
+  height: 10%;
+}
+
+#intro-img img{
+  opacity: 1;
+  filter: alpha(opacity=100);
+  object-fit: contain;
+}
+
+
 /*sets the width for the hr elements*/
 hr {
   width: 50%;
@@ -286,6 +298,17 @@ footer a:hover {
     overflow-x: hidden;
   }
 
+  #intro-img {
+    height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+  }
+
+  #intro-img img {
+    object-fit: cover;
+    max-width: 950px;
+  }
 
 /**************** Typography ****************/
 
