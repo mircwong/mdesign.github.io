@@ -320,6 +320,9 @@ footer a:hover {
     max-width: 950px;
   }
 
+.centered {
+  justify-content: center;
+}
 /**************** Typography ****************/
 
   h1 {
