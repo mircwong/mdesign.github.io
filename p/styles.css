@@ -154,6 +154,7 @@ a {
 
 
 
+
 /************* Navigation *************/
 nav ul {
   margin: auto;
@@ -326,6 +327,11 @@ footer a:hover {
 .centered {
   justify-content: center;
 }
+
+#featured p a:hover{
+  color: #52595e;
+  transition-duration: 1.2s;
+}
 /**************** Typography ****************/
 
   h1 {
@@ -363,6 +369,7 @@ footer a:hover {
   		transform: scale(0.95);
   		transition-duration: 1s;
   }
+
 
 /**************** Navigation ****************/
 
