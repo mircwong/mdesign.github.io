@@ -17,6 +17,7 @@ header {
   color: black;
   width: 100%;
   border-bottom: #f7ce4e 7px solid;
+  border-top: #f7ce4e 20px solid;
 }
 
 header img {
