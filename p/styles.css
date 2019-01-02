@@ -332,6 +332,7 @@ footer a:hover {
   color: #52595e;
   transition-duration: 1.2s;
 }
+
 /**************** Typography ****************/
 
   h1 {
@@ -351,9 +352,14 @@ footer a:hover {
   .profile p {
     font-size: 1em;
     line-height: 2em;
-    padding-left: 10rem;
-    padding-right: 10rem;
+
   }
+
+#profile {
+  float: left;
+  width: 50%;
+}
+
 
   article p {
     padding-left: 10rem;
