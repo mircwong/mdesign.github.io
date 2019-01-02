@@ -207,6 +207,7 @@ ul li a {
 
 ul li a:hover {
   color: #f7ce4e;
+  transform: rotate(180deg);
 }
 
 
@@ -371,7 +372,6 @@ nav ul {
 }
 
 ul {
-  font-size: 30px;
   padding: 1.3rem;
 }
 
@@ -379,8 +379,16 @@ ul {
 ul li {
   margin: 1.2rem;
   width: 100%;
+  font-size: 1.1em;
 
 }
+ul li:hover {
+  color: #f7ce4e;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+
+
 
 /**************** Work ******************/
 
