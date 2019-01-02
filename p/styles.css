@@ -354,6 +354,9 @@ footer a:hover {
     line-height: 2em;
 
   }
+  .profile h5 {
+    padding-top: 5rem;
+  }
 
 #profile {
   float: left;
