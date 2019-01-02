@@ -383,10 +383,18 @@ ul li {
 }
 
 /**************** Work ******************/
+
+.work {
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
 .work .square {
+  margin: .9em;
+
   filter: grayscale(1);
   min-height: 20em;
-  width: 33%;
+  width: 30%;
 }
 
 .work .square:hover {
