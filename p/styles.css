@@ -322,7 +322,23 @@ footer a:hover {
   #intro-img img {
     object-fit: cover;
     max-width: 950px;
+    -webkit-animation: in 5s;
+    -webkit-animation: out 5s;
   }
+
+  @-webkit-keyframes in {
+    from   { -webkit-transform: scale(1); }
+    to { -webkit-transform: scale(1.1);}
+}
+
+@-webkit-keyframes out {
+    0%   { -webkit-transform: scale(1.1); }
+    50% { -webkit-transform: scale(0.9); }
+    100% { -webkit-transform: scale(1); }
+}
+
+
+
 
 .centered {
   justify-content: center;
