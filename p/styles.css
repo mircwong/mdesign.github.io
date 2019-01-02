@@ -152,15 +152,7 @@ a {
   text-decoration: none;
 }
 
-article img {
-  filter: grayscale(1);
-}
 
-article img:hover {
-  filter: grayscale(0);
-		transform: scale(0.95);
-		transition-duration: 1s;
-}
 
 /************* Navigation *************/
 nav ul {
@@ -361,6 +353,16 @@ footer a:hover {
     padding-right: 10rem;
   }
 
+  #featured img {
+    filter: grayscale(1);
+  }
+
+  #featured img:hover {
+    filter: grayscale(0);
+  		transform: scale(0.95);
+  		transition-duration: 1s;
+  }
+
 /**************** Navigation ****************/
 
 nav ul {
@@ -382,10 +384,18 @@ ul li {
 
 /**************** Work ******************/
 .work .square {
+  filter: grayscale(1);
   min-height: 20em;
   width: 33%;
 }
 
+.work .square:hover {
+  filter: grayscale(0);
+  transform: scale(0.80);
+  transition-duration: .5s;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
 /*
 .work .square2 {
   min-height: 20em;
