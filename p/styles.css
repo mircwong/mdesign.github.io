@@ -122,16 +122,6 @@ h5 {
   font-size: 2em;
 }
 
-.profile p{
-  font-family: 'Open Sans', sans-serif;
-  color:#7c7c7c;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-size: 0.8em;
-  line-height: 1.8;
-  font-weight: normal;
-
-}
 
 article p {
   font-family: 'Asap', sans-serif;
@@ -151,9 +141,17 @@ article a {
 a {
   text-decoration: none;
 }
+/*******************Profile*************/
 
-
-
+.profile p{
+  font-family: 'Open Sans', sans-serif;
+  color:#7c7c7c;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.8em;
+  line-height: 1.8;
+  font-weight: normal;
+}
 
 /************* Navigation *************/
 nav ul {
@@ -190,16 +188,6 @@ ul li:hover {
   border-color: #e7e7e7;
 }
 
-/*indicates which page the user is on by changes the color of the button*/
-.locationmarker {
-  background: transparent;
-  text-decoration: line-through;
-}
-
-.locationmarker a {
-  color: #f7ce4e;
-}
-
 /*takes away any underlines or decorations on the links*/
 ul li a {
   color: black;
@@ -209,6 +197,16 @@ ul li a {
 ul li a:hover {
   color: #f7ce4e;
   transform: rotate(180deg);
+}
+
+/*indicates which page the user is on by changes the color of the button*/
+.locationmarker {
+  background: transparent;
+  text-decoration: line-through;
+}
+
+.locationmarker a {
+  color: #f7ce4e;
 }
 
 
@@ -296,6 +294,7 @@ footer a:hover {
 /************** for larger/desktop screens **************/
 @media only screen and (min-width: 1000px)  {
 
+/******************Header/intro area*******************/
 /*sets the header image to full screen width*/
   header {
     height: 100%;
@@ -309,6 +308,10 @@ footer a:hover {
 
   body {
     overflow-x: hidden;
+  }
+
+  .centered {
+    justify-content: center;
   }
 
   #intro-img {
@@ -337,13 +340,6 @@ footer a:hover {
     100% { -webkit-transform: scale(1); }
 }
 
-
-
-
-.centered {
-  justify-content: center;
-}
-
 #featured p a:hover{
   color: #52595e;
   transition-duration: 1.2s;
@@ -368,20 +364,16 @@ footer a:hover {
   .profile p {
     font-size: 1em;
     line-height: 2em;
+    text-align: left;
 
   }
   .profile h5 {
     padding-top: 5rem;
   }
 
-#profile {
-  float: left;
-  padding-top: 1rem;
-  width: 50%;
-}
+/***************Featured work********************/
 
-
-  article p {
+  article p { /*this gives padding to the brief paragraphs on the home page about each featured work*/
     padding-left: 10rem;
     padding-right: 10rem;
   }
@@ -392,10 +384,16 @@ footer a:hover {
 
   #featured img:hover {
     filter: grayscale(0);
-  		transform: scale(0.95);
-  		transition-duration: 1s;
+      transform: scale(0.95);
+      transition-duration: 1s;
   }
 
+/*********************Profile page***********************/
+#profile { /*this is for the profile image of me*/
+  float: right;
+  padding-top: 1rem;
+  width: 50%;
+}
 
 /**************** Navigation ****************/
 
@@ -421,8 +419,6 @@ ul li:hover {
   transition-duration: 0.5s;
 }
 
-
-
 /**************** Work ******************/
 
 .work {
@@ -445,6 +441,7 @@ ul li:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+
 /*
 .work .square2 {
   min-height: 20em;
@@ -453,11 +450,13 @@ ul li:hover {
 }
 */
 
+/*****************Footer****************/
+
 footer img {
   object-fit: cover;
 }
 
-.centeredBottom {
+.centeredBottom { /*this is for the text in the footer*/
   padding-bottom: 1.5rem;
   text-align: center;
 }
