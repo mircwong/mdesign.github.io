@@ -1,0 +1,183 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portal Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+<style>
+
+
+.projects {
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 80vw;
+  margin: auto;
+  grid-gap: 1em;
+
+}
+
+.projects div {
+  background: white;
+  padding: 3em;
+}
+  .imageheader {
+    display: grid;
+    grid-column: 1/4;
+    max-width: 80vw;
+    margin:auto;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 2em;
+  }
+  .footer {
+    display: grid;
+    grid-column: 1/4;
+    max-width: 80vw;
+    margin: auto;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: skyblue;
+}
+
+header {
+
+}
+
+aside {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 1em;
+}
+
+h1 {
+  font-size: 100%;
+  padding-top: 2em;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+li {
+  color: black;
+}
+
+p {
+  font-size: 100%;
+}
+footer {
+  background-color: white;
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <header>
+
+      <h1>
+        Miranda Wong | Portal Project
+        <br>
+        <br>
+        DES 117 | Fall Quarter
+      </h1>
+
+    </header>
+
+    <div class="imageheader">
+      <img src="./images/des117-banner.png" alt= "header" style="width:100%;">
+    </div>
+
+</div>
+
+<div class="projects">
+  <div>
+    <section>
+      <h2>Projects</h2>
+      <ol>
+        <li><a href="https://mircwong.github.io/mdesign.github.io/index.html">Portal Page</a>
+        <li><a href="https://mircwong.github.io/mdesign.github.io/mw-blog-project/index.html">Blog Project</a>
+        <li><a href="https://mircwong.github.io/mdesign.github.io/mw-portfolio/index.html">Final Portfolio</a>
+      </ol>
+    </section>
+  </div>
+
+
+
+<div>
+    <section>
+      <h2>Exercises</h2>
+      <ol>
+        <li><a href="./exercises/The%20Day%20My%20Dog%20Wandered%20Outside%20by%20Miranda%20Wong.html">History of Internet Art: Remixing</a>
+        <li><a href="#">HTML Semantic Markup Practice</a>
+          <ul>
+          <li><a href="./exercises/Ex%202%20HTML%20Semantic%20Markup%20Practice/HTMLSemanticMarkupPracticeExercise.html">HTML Semantic Markup Practice 1</a>
+          <li><a href="./exercises/Ex%202%20HTML%20Semantic%20Markup%20Practice/HTMLSemanticMarkupPracticeExercise2.html">HTML Semantic Markup Practice 2</a>
+          <li><a href="./exercises/Ex%202%20HTML%20Semantic%20Markup%20Practice/HTMLSemanticMarkupPracticeExercise3.html">HTML Semantic Markup Practice 3</a>
+          </ul>
+        <li><a href="./exercises/llamabaseforgame-wong-zhu.html">CSS Colorize Selector: King Llama Game</a>
+        <li><a href="#">Exploring Box Model Game</a>
+        <li><a href="#">Web Font Style Tile and Oral Report</a>
+        <li><a href="#">CSS Grid One Page Layout</a>
+      </ol>
+    </section>
+  </div>
+
+
+  <div>
+    <aside>
+      <section>
+          <h2>Meet the Designer</h2>
+          <ul>
+            <li><a href="https://mirandaawong.myportfolio.com">Portfolio</a>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Useful Resources</h2>
+          <ul>
+            <li><a href="https://www.w3schools.com/">W3 Schools</a>
+            <li><a href="https://github.com/">GitHub</a>
+            <li><a href="http://wbwip.com/wbw/emailencoder.html">Email Encoder</a>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Design Inspiration</h2>
+          <ul>
+            <li><a href="https://www.behance.net/">Behance</a>
+            <li><a href="https://www.pinterest.com/">Pinterest</a>
+          </ul>
+        </section>
+    </aside>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+    <footer>
+      <p>Miranda Wong</p>
+      <p>Contact | <a href="&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#109;&#105;&#114;&#119;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+      <p><a href="https://validator.w3.org/check?uri=referer">©</a></p>
+    </footer>
+  </div>
+
+</body>
