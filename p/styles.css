@@ -361,16 +361,6 @@ footer a:hover {
     width: 30%;
   }
 
-  .profile p {
-    font-size: 1em;
-    line-height: 2em;
-    text-align: left;
-
-  }
-  .profile h5 {
-    padding-top: 5rem;
-  }
-
 /***************Featured work********************/
 
   article p { /*this gives padding to the brief paragraphs on the home page about each featured work*/
@@ -389,11 +379,23 @@ footer a:hover {
   }
 
 /*********************Profile page***********************/
+
 #profile { /*this is for the profile image of me*/
   float: right;
   padding-top: 1rem;
   width: 50%;
 }
+
+.profile h5 {
+  text-align: right;
+  padding-top: 5rem;
+}
+
+  .profile p {
+    font-size: 1em;
+    line-height: 2em;
+    text-align: right;
+  }
 
 /**************** Navigation ****************/
 
