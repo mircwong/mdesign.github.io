@@ -366,11 +366,14 @@ footer a:hover {
 
   article p { /*this gives padding to the brief paragraphs on the home page about each featured work*/
     padding-left: 10rem;
-    padding-right: 10rem;
+
   }
 
   #featured img {
+    float: left;
+    max-width: 40%;
     filter: grayscale(1);
+    margin: 0 100px 0 100px;
   }
 
   #featured img:hover {
@@ -378,6 +381,20 @@ footer a:hover {
       transform: scale(0.95);
       transition-duration: 1s;
   }
+
+  #featured h3 {
+    text-align: left;
+  }
+  #one, #two, #three, #four {
+    float: right;
+    text-align: left;
+  }
+
+  #text1, #text2, #text3, #text4 {
+    position: relative;
+    transform: translate(-3%, 60%);
+  }
+
 
 /*********************Profile page***********************/
 
