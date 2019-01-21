@@ -469,7 +469,10 @@ ul li:hover {
   width: 49.8%;
 }
 */
-
+/****************Individual Work**********/
+.work-blurb p{
+  max-width: 70%;
+}
 /*****************Footer****************/
 
 footer img {
