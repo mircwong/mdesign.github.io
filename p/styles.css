@@ -35,7 +35,7 @@ header img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -60%);
 }
 
 .intro-img {
@@ -52,10 +52,11 @@ header img {
 
 
 /*sets the width for the hr elements*/
+/**
 hr {
   width: 50%;
 }
-
+**/
 article {
   padding-bottom: 3rem;
 }
@@ -86,6 +87,8 @@ h2 {
   letter-spacing: 1px;
   line-height: 1.5rem;
   color: black;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 h3 {
