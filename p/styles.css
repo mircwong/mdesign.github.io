@@ -206,13 +206,13 @@ ul li:hover {
 
 /*takes away any underlines or decorations on the links*/
 ul li a {
-  color: black;
+    color: #52595e;
   text-decoration: none;
 }
 
 ul li a:hover {
   color: #f7ce4e;
-  transform: rotate(180deg);
+  transition-duration: 1.2s;
 }
 
 /*indicates which page the user is on by changes the color of the button*/
@@ -459,6 +459,8 @@ nav ul li{
       text-transform: lowercase;
       font-weight: bold;
 }
+
+
 /**
 nav ul {
 
