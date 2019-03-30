@@ -28,7 +28,9 @@ header img {
   max-width: 100%;
   text-align: center;
 }
-
+body {
+  overflow-x: hidden;
+}
 /* Centered text over header image */
 .centered {
     display: grid;
