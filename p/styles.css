@@ -157,6 +157,9 @@ a {
   font-weight: normal;
 }
 
+.profile img{
+  padding: 2em;
+}
 /************* Navigation *************/
 
 nav ul {
