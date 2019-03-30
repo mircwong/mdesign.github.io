@@ -52,11 +52,10 @@ header img {
 
 
 /*sets the width for the hr elements*/
-/**
 hr {
   width: 50%;
 }
-**/
+
 article {
   padding-bottom: 3rem;
 }
