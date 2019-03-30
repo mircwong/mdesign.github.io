@@ -24,7 +24,7 @@ header img {
   opacity: 0.2;
   filter: alpha(opacity=20); /*brings the opacity down*/
   width: 100%;
-  height: 650px;
+  height: 350px;
   max-width: 100%;
   text-align: center;
 }
@@ -35,12 +35,12 @@ header img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -110%);
 }
 
 .intro-img {
   padding: 0;
-  height: 400px;
+  height: 200px;
   width: 400px;
 }
 
@@ -154,6 +154,21 @@ a {
 }
 
 /************* Navigation *************/
+
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
+    margin: 1em;
+}
+/**
 nav ul {
   margin: auto;
   display: flex;
@@ -182,6 +197,7 @@ ul li {
 }
 
 /* Changes the link color when hovered over */
+
 ul li:hover {
   background: transparent;
   text-decoration: line-through;
@@ -202,7 +218,6 @@ ul li a:hover {
 /*indicates which page the user is on by changes the color of the button*/
 .locationmarker {
   background: transparent;
-  text-decoration: line-through;
 }
 
 .locationmarker a {
@@ -313,8 +328,8 @@ footer a:hover {
   .centered { /*this is the intro image, msg, and nav bar*/
     justify-content: center;
     padding-top: 19rem;
+      transform: translate(-50%, -70%);
   }
-
   .intro-img {
     height: 100%;
     width: 100%;
@@ -417,7 +432,34 @@ footer a:hover {
   }
 
 /**************** Navigation ****************/
+nav{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+}
 
+nav ul {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      font-size: 1.2em;
+    margin: auto;
+}
+
+nav ul li{
+    flex: 1;
+    font-family: 'Open Sans', sans-serif;
+      text-transform: lowercase;
+      font-weight: bold;
+}
+/**
 nav ul {
 
   flex-wrap: nowrap;
@@ -428,6 +470,7 @@ ul {
 }
 
 /*sets the width of the nav bar list elements*/
+/**
 ul li {
   margin: 1.2rem;
   width: 100%;
@@ -439,7 +482,7 @@ ul li:hover {
   transform: scale(0.9);
   transition-duration: 0.5s;
 }
-
+**/
 /**************** Work ******************/
 
 .work {
