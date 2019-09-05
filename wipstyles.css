@@ -9,7 +9,7 @@
 }
 
 html{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -83,7 +83,7 @@ nav a::before{
 	border-radius:30px;
 	width: 0%;
 	top: 50px;
-	background: #5DADEC;
+	background: #FF7753;
 	position: absolute;
 	transition: all ease-in-out 250ms;
 }
@@ -116,7 +116,7 @@ li a {
 }
 
 li a:hover{
-	color: #5DADEC;
+	color: #FF7753;
 }
 
 .locationmarker {
@@ -124,7 +124,7 @@ li a:hover{
 }
 
 .locationmarker a {
-  color: #5DADEC;
+  color: #FF7753;
 }
 
 
