@@ -9,7 +9,7 @@
 }
 
 html{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -49,9 +49,10 @@ body {
 
 
 h1 {
+	font-family: 'Roboto', sans-serif;
 	color: #444444;
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 900;
 	padding-left: 30px;
 	line-height: 2em;
 
@@ -66,7 +67,6 @@ h2 {
 }
 
 p {
-	color: #444444;
 	font-size: 16px;
 	padding-left: 30px;
 	padding-top: 40px;
@@ -100,15 +100,9 @@ footer img {
 
 @media only screen and (min-width: 1000px)  {
 
-	header {
-		text-align: left;
-		padding-top: 250px;
-	}
 
 	header img {
-		height: 100px;
 		float: right;
-		padding: 35px;
 		transition-duration: 800ms;
 		transition-property: all;
 	}
@@ -124,21 +118,6 @@ footer img {
 
 	}
 
-h1 {
-	font-size: 60px;
-		padding-left: 100px;
-}
-
-h2 {
-	font-size: 20px;
-	padding-left: 100px;
-}
-
-p {
-	padding-top: 20px;
-	font-size: 20px;
-	padding: 100px;
-}
 
 nav a::before{
 	content: "";
@@ -191,11 +170,8 @@ li a:hover{
   color: #e2725b;
 }
 
+
 .work img {
-		width: 500px;
-		height: 400px;
-		width: 45%;
-		margin: 2%;
 		object-fit: cover;
 
 		filter: grayscale(1);
@@ -208,14 +184,12 @@ li a:hover{
   transform: scale(0.80);
   transition: all ease-in-out 0.5s;
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 footer p {
 	padding-left: 200px;
 }
 footer img {
-	height: 200px;
 	padding-left: 0;
 	transition-duration: 900ms;
 	transition-property: all;

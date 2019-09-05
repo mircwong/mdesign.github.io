@@ -9,7 +9,7 @@
 }
 
 html{
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -51,16 +51,16 @@ body {
 h1 {
 	color: #444444;
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 900;
 	padding-left: 30px;
-	line-height: 2em;
+	line-height: 1.3em;
 
 }
 
 h2 {
 	color: #444444;
 	font-size: 15px;
-	font-weight: 100;
+	font-weight: 300;
 	padding-left: 30px;
 	line-height: 2em;
 }
@@ -68,6 +68,7 @@ h2 {
 p {
 	color: #444444;
 	font-size: 16px;
+	font-weight: 300;
 	padding-left: 30px;
 	padding-top: 40px;
 	line-height: 2em;
@@ -82,7 +83,7 @@ nav a::before{
 	border-radius:30px;
 	width: 0%;
 	top: 50px;
-	background: #e2725b;
+	background: #3FD3FF;
 	position: absolute;
 	transition: all ease-in-out 250ms;
 }
@@ -99,7 +100,7 @@ ul {
 
 li {
 	color: #444444;
-	font-size: 16px;
+	font-size: 13px;
 	display: inline-block;
 	margin-left: 50px;
 	padding-top: 25px;
@@ -115,7 +116,7 @@ li a {
 }
 
 li a:hover{
-	color: #e2725b;
+	color: #3FD3FF;
 }
 
 .locationmarker {
@@ -123,8 +124,9 @@ li a:hover{
 }
 
 .locationmarker a {
-  color: #e2725b;
+  color: #3FD3FF;
 }
+
 
 .work img{
 	width: 100%;
@@ -192,7 +194,8 @@ h2 {
 p {
 	padding-top: 20px;
 	font-size: 20px;
-	padding: 100px;
+	padding-left: 100px;
+	padding-bottom: 150px;
 }
 
 .work img {
