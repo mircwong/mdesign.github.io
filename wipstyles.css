@@ -15,7 +15,7 @@ html{
 
 header {
 	text-align: left;
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 100px;
 	width: 90%;
 }
@@ -45,8 +45,8 @@ body {
 
 .clearfix img {
 	float: left;
-	height: 50px;
-	padding: 10px 0;
+	height: 30px;
+	padding: 20px 0;
 }
 
 h1 {
@@ -174,12 +174,13 @@ footer img {
 	.clearfix img {
 		float: left;
 		height: 30px;
-		padding: 50px 0 0 0;
+		padding: 50px 0px 0 0;
 	}
 
 	nav {
 		float: right;
 		padding: 0;
+		width: 32%;
 	}
 
 h1 {
