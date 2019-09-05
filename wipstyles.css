@@ -159,7 +159,7 @@ footer img {
 	}
 
 	header img {
-		height: 100px;
+		height: 140px;
 		float: right;
 		padding: 35px;
 		transition-duration: 800ms;
@@ -167,7 +167,7 @@ footer img {
 	}
 
 	header img:hover {
-		transform: rotate(30deg);
+		transform: rotate(20deg);
 	}
 
 	.clearfix img {
