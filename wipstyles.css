@@ -83,7 +83,7 @@ nav a::before{
 	border-radius:30px;
 	width: 0%;
 	top: 50px;
-	background: #3FD3FF;
+	background: #5DADEC;
 	position: absolute;
 	transition: all ease-in-out 250ms;
 }
@@ -116,7 +116,7 @@ li a {
 }
 
 li a:hover{
-	color: #3FD3FF;
+	color: #5DADEC;
 }
 
 .locationmarker {
@@ -124,7 +124,7 @@ li a:hover{
 }
 
 .locationmarker a {
-  color: #3FD3FF;
+  color: #5DADEC;
 }
 
 
@@ -187,16 +187,12 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 17px;
 	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-p {
-	padding-top: 20px;
-	font-size: 20px;
-	padding-left: 100px;
-	padding-bottom: 150px;
-}
 
 .work img {
 		width: 500px;
