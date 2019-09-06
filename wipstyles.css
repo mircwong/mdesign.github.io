@@ -15,7 +15,7 @@ html{
 
 header {
 	text-align: left;
-	padding-top: 60px;
+	padding-top: 40px;
 	padding-bottom: 100px;
 	width: 90%;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -58,40 +58,20 @@ h1 {
 
 }
 
+
 h2 {
 	color: #444444;
 	font-size: 12px;
 	font-weight: 300;
 	padding-left: 30px;
 	line-height: 2em;
+	padding-top: 20px;
 }
 
-p {
-	color: #444444;
-	font-size: 16px;
-	font-weight: 300;
-	padding-left: 30px;
-	padding-top: 40px;
-	line-height: 2em;
-
+nav {
+	top: 0;
 }
 
-
-nav a::before{
-	content: "";
-	display: block;
-	height: 4px;
-	border-radius:30px;
-	width: 0%;
-	top: 50px;
-	background: #FF7753;
-	position: absolute;
-	transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-	width: 100%;
-}
 
 ul {
 	list-style: none;
@@ -116,9 +96,6 @@ li a {
 	color: #444444;
 }
 
-li a:hover{
-	color: #FF7753;
-}
 
 .locationmarker {
   background: transparent;
@@ -133,18 +110,19 @@ li a:hover{
 	width: 100%;
 	height: 100%;
 	margin: 10px 0 10px 0px;
-	border-radius: 25px;
+	border-radius: 10px;
 
 }
 
 footer {
 	text-align: center;
-	padding: 50px;
+	font-weight: 300;
+	padding-top: 30px;
 }
 
 footer img {
-	float: right;
-	height: 200px;
+	padding-top: 20px;
+	height: 100px;
 }
 
 
@@ -171,6 +149,11 @@ footer img {
 		transform: rotate(20deg);
 	}
 
+	.wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	.clearfix img {
 		float: left;
 		height: 30px;
@@ -195,6 +178,22 @@ h2 {
 	padding-bottom: 50px;
 }
 
+nav a::before{
+	content: "";
+	display: block;
+	height: 4px;
+	border-radius:30px;
+	width: 0%;
+	top: 50px;
+	background: #FF7753;
+	position: absolute;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
 ul {
 	margin: 30px;
 
@@ -202,6 +201,10 @@ ul {
 
 li {
 	margin-left: 50px;
+}
+
+li a:hover{
+	color: #FF7753;
 }
 
 .work img {
