@@ -1,5 +1,5 @@
-/*-----------Global-----------*/
-* {
+
+	* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -30,6 +30,7 @@ header img {
 body {
 	width: 100%;
 	background-color: white;
+	overflow-y: scroll;
 }
 
 .wrapper {
@@ -129,12 +130,11 @@ footer img {
 
 
 
-
 @media only screen and (min-width: 1000px)  {
 
 	header {
 		text-align: left;
-		padding-top: 250px;
+		padding-top: 190px;
 	}
 
 	header img {
@@ -163,7 +163,7 @@ footer img {
 	nav {
 		float: right;
 		padding: 0;
-		width: 32%;
+		width: 37%;
 	}
 
 h1 {
@@ -175,7 +175,7 @@ h2 {
 	font-size: 17px;
 	padding-left: 100px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 nav a::before{
