@@ -30,7 +30,7 @@ header img {
 body {
 	width: 100%;
 	background-color: white;
-	overflow-y: scroll;
+
 }
 
 .wrapper {
@@ -140,7 +140,7 @@ footer img {
 	header img {
 		height: 140px;
 		float: right;
-		padding: 35px;
+		padding: 35px 0;
 		transition-duration: 800ms;
 		transition-property: all;
 	}
@@ -151,7 +151,6 @@ footer img {
 
 	.wrapper {
 		width: 90%;
-		margin: 0 auto;
 	}
 
 	.clearfix img {
@@ -206,7 +205,9 @@ li {
 li a:hover{
 	color: #FF7753;
 }
-
+.work {
+	padding-left: 30px;
+}
 .work img {
 		width: 500px;
 		height: 400px;
@@ -228,7 +229,7 @@ li a:hover{
 }
 
 footer p {
-	padding-left: 200px;
+	text-align: center;
 }
 footer img {
 	height: 200px;
